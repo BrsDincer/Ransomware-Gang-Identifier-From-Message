@@ -26,12 +26,12 @@ This project, **Ransomware Gang Identifier From Message**, is designed to compar
 
 ### Example Usage
 ```bash
-python ransomware_identifier.py /path/to/message.txt --sequence
+python .\RGIFM.py /path/to/message.txt --sequence
 ```
 This example runs the tool to identify the ransomware gang using sequence-oriented similarity.
 
 ```bash
-python ransomware_identifier.py --all
+python .\RGIFM.py --all
 ```
 This example runs all similarity calculation algorithms on the given message.
 
@@ -48,6 +48,9 @@ This example runs all similarity calculation algorithms on the given message.
    ```bash
    pip install -r requirements.txt
    ```
+
+## Note
+You can add entries to the `ransomware_messages.json` file depending on your goal without breaking the specific format.
 
 ## Contributing
 Feel free to submit issues or pull requests for new features, bug fixes, or improvements.
