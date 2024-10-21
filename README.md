@@ -52,5 +52,13 @@ This example runs all similarity calculation algorithms on the given message.
 ## Note
 You can add entries to the `ransomware_messages.json` file depending on your goal without breaking the specific format.
 
+```bash
+{
+  "GANG_NAME_1": ["MESSAGE_1", "MESSAGE_2"],
+  "GANG_NAME_2": ["MESSAGE_1", "MESSAGE_2"],
+  ...
+}
+```
+
 ## Contributing
 Feel free to submit issues or pull requests for new features, bug fixes, or improvements.
